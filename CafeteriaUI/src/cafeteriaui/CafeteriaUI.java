@@ -18,6 +18,7 @@ public class CafeteriaUI {
         //EMpezamos
         //Spind Doctor
         int si;
+        //pan
     }
     
 }
