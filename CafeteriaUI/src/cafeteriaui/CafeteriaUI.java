@@ -4,6 +4,8 @@
  */
 package cafeteriaui;
 
+import UI.JInicioSecion;
+
 /**
  *
  * @author danir
@@ -14,11 +16,7 @@ public class CafeteriaUI {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        //EMpezamos
-        //Spind Doctor
-        int si;
-        //pan
+               java.awt.EventQueue.invokeLater(() -> new JInicioSecion().setVisible(true));
     }
     
 }
